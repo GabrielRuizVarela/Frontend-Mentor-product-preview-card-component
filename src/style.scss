@@ -14,7 +14,7 @@
   font-size: 14px;
 }
 
-.content {
+main {
   font-family: index.$font-family-sec;
   display: grid;
   grid-template-columns: minmax(2rem, 2fr) minmax(auto, 2.85fr) minmax(
@@ -22,7 +22,7 @@
       2fr
     );
 }
-#main {
+#content {
   background-color: index.$white;
   margin: clamp(1rem, 11rem, 11rem) 0rem;
   display: grid;
@@ -139,11 +139,11 @@
   .product-description {
     font-size: 0.9rem;
   }
-  .content {
+  main {
     grid-template-rows: auto 1fr auto;
     grid-template-columns: 1fr;
   }
-  #main#main {
+  #content#content {
     grid-template-rows: auto 1fr;
     grid-template-columns: 1fr;
     margin: 2rem 1rem;
